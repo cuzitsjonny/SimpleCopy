@@ -146,7 +146,6 @@ public class Server
         catch (IOException exc)
         {
             System.out.println("Client timed out.");
-            exc.printStackTrace();
         }
     }
 
